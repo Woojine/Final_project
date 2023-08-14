@@ -22,7 +22,6 @@ const SignupAPI = {
         }
       })
       .catch((error) => {
-        console.error(error);
       });
   },
   KakaoSignup: async (email, password, memberName, nickname) => {
@@ -45,7 +44,6 @@ const SignupAPI = {
         }
       })
       .catch((error) => {
-        console.error(error);
       });
   },
 };
